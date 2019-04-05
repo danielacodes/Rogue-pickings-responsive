@@ -167,6 +167,25 @@ footer span {
 
 @media all and (min-width: 768px) {
 	/*tablet style here*/
+
+	.bottom-section {
+		justify-content: space-between;
+		align-items: flex-start;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		flex-basis: 30%;
+		border-top: none;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 20px;
+	}
 }
 
 @media all and (min-width: 1200px) {
